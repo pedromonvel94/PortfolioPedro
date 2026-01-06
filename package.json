@@ -4,8 +4,8 @@
   "description": "My portfolio with tailwind CSS",
   "main": "script.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./output.css --minify",
-    "dev:css": "tailwindcss -i ./input.css -o ./output.css --watch"
+    "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./input.css -o ./output.css --minify",
+    "dev:css": "node ./node_modules/tailwindcss/lib/cli.js -i ./input.css -o ./output.css --watch"
   },
   "repository": {
     "type": "git",

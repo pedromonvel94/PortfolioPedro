@@ -1,0 +1,26 @@
+{
+  "name": "pedromonvel_portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio with tailwind CSS",
+  "main": "script.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./output.css --minify",
+    "dev:css": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedromonvel94/PortfolioPedro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedromonvel94/PortfolioPedro/issues"
+  },
+  "homepage": "https://github.com/pedromonvel94/PortfolioPedro#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
